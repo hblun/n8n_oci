@@ -29,5 +29,5 @@ variable "memory_in_gbs" {
 variable "availability_domain" {
   description = "Availability domain"
   type        = string
-  default     = "Hello"
+  default     = "btiH:UK-LONDON-1-AD-2"
 }

@@ -108,7 +108,7 @@ resource "oci_core_subnet" "n8n_subnet" {
 }
 
 resource "oci_core_instance" "n8n_instance" {
-  availability_domain = var.availability_domain
+  availability_domain = null
   compartment_id      = local.compartment_ocid
   display_name        = "n8n-instance"
   shape               = var.instance_shape
